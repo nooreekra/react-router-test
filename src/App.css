@@ -36,3 +36,58 @@
     transform: rotate(360deg);
   }
 }
+
+.Wrapper {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.Header {
+  height: 35px;
+  background: #282c34;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  color: white;
+}
+
+.Header div {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+.Header a{
+  display: flex;
+  text-decoration: none;
+  justify-content: space-between;
+  padding-right: 15px;
+}
+
+a {
+  color: white;
+}
+
+main {
+  flex: 1;
+  text-align: center;
+}
+
+main, main a {
+  color:darkslateblue;
+}
+
+.Footer {
+  width: 100vw;
+  height: 35px;
+  background: #282c34;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
